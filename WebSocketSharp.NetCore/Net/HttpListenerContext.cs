@@ -39,9 +39,9 @@
 
 using System;
 using System.Security.Principal;
-using WebSocketSharp.NetCore.Net.WebSockets;
+using WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   /// <summary>
   /// Provides the access to the HTTP request and response objects used by

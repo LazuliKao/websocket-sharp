@@ -49,7 +49,7 @@ using System.IO;
 using System.Security.Principal;
 using System.Text;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   internal static class HttpUtility
   {

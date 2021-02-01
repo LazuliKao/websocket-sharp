@@ -1,6 +1,6 @@
 using System;
 
-namespace WebSocketSharp.NetCore.Net.WebSockets.Exceptions
+namespace WebSocketSharp.Net.WebSockets.Exceptions
 {
     [Serializable]
     public class WebSocketAlreadyClosingException : Exception

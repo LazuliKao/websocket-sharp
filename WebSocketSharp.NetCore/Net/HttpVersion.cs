@@ -38,7 +38,7 @@
 
 using System;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   /// <summary>
   /// Provides the HTTP version numbers.

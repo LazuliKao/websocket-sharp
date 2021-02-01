@@ -43,10 +43,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
-using WebSocketSharp.NetCore.Net;
-using WebSocketSharp.NetCore.Net.WebSockets;
+using WebSocketSharp.Net;
+using WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   /// <summary>
   /// Provides a WebSocket protocol server.

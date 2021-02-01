@@ -32,9 +32,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading;
-using WebSocketSharp.NetCore.Net;
+using WebSocketSharp.Net;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   /// <summary>
   /// Provides the management function for the WebSocket services.

@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   internal enum ServerState
   {

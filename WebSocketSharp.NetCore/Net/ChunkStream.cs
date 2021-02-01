@@ -44,7 +44,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   internal class ChunkStream
   {

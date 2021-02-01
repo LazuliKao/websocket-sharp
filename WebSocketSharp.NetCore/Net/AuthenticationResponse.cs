@@ -36,7 +36,7 @@ using System.Security.Cryptography;
 using System.Security.Principal;
 using System.Text;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   internal class AuthenticationResponse : AuthenticationBase
   {

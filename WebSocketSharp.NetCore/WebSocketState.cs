@@ -26,7 +26,7 @@
  */
 #endregion
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// Indicates the state of a WebSocket connection.

@@ -13,5 +13,6 @@
         <PackageTags>websocket</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageVersion>1.0.1-alpha.3</PackageVersion>
+        <RootNamespace>WebSocketSharp</RootNamespace>
     </PropertyGroup>
 </Project>

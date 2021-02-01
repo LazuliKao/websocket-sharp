@@ -30,7 +30,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// Provides a set of methods and properties for logging.

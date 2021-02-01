@@ -30,9 +30,9 @@ using System;
 using System.IO;
 using System.Security.Principal;
 using System.Text;
-using WebSocketSharp.NetCore.Net;
+using WebSocketSharp.Net;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   /// <summary>
   /// Represents the event data for the HTTP request events of

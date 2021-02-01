@@ -26,7 +26,7 @@
  */
 #endregion
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// Indicates whether a WebSocket frame is the final frame of a message.

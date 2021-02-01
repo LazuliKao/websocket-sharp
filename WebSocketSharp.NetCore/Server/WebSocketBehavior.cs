@@ -29,10 +29,10 @@
 using System;
 using System.Collections.Specialized;
 using System.IO;
-using WebSocketSharp.NetCore.Net;
-using WebSocketSharp.NetCore.Net.WebSockets;
+using WebSocketSharp.Net;
+using WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   /// <summary>
   /// Exposes a set of methods and properties used to define the behavior of
@@ -429,7 +429,7 @@ namespace WebSocketSharp.NetCore.Server
       OnClose (e);
     }
 
-    private void onError(object sender, WebSocketSharp.NetCore.ErrorEventArgs e)
+    private void onError(object sender, WebSocketSharp.ErrorEventArgs e)
     {
       OnError(e);
     }
@@ -823,7 +823,7 @@ namespace WebSocketSharp.NetCore.Server
       if (message.Length == 0)
         throw new ArgumentException ("An empty string.", nameof(message));
 
-      OnError (new WebSocketSharp.NetCore.ErrorEventArgs(message, exception));
+      OnError (new WebSocketSharp.ErrorEventArgs(message, exception));
     }
 
     /// <summary>
@@ -844,7 +844,7 @@ namespace WebSocketSharp.NetCore.Server
     /// A <see cref="System.IO.ErrorEventArgs"/> that represents the event data passed
     /// from a <see cref="WebSocket.OnError"/> event.
     /// </param>
-    protected virtual void OnError (WebSocketSharp.NetCore.ErrorEventArgs e)
+    protected virtual void OnError (WebSocketSharp.ErrorEventArgs e)
     {
     }
 

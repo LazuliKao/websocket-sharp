@@ -26,7 +26,7 @@
  */
 #endregion
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// Indicates whether the payload data of a WebSocket frame is masked.

@@ -35,7 +35,7 @@
 
 using System;
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// Represents the event data for the <see cref="WebSocket.OnError"/> event.

@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
   /// <summary>
   /// The exception that is thrown when a fatal error occurs in

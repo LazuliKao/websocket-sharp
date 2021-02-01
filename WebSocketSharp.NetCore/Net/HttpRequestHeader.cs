@@ -37,7 +37,7 @@
  */
 #endregion
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   /// <summary>
   /// Indicates the HTTP header that may be specified in a client request.

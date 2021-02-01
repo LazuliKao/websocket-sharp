@@ -41,7 +41,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   /// <summary>
   /// The exception that is thrown when a <see cref="HttpListener"/> gets an error

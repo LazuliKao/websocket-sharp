@@ -27,9 +27,9 @@
 #endregion
 
 using System;
-using WebSocketSharp.NetCore.Net.WebSockets;
+using WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.NetCore.Server
+namespace WebSocketSharp.Server
 {
   /// <summary>
   /// Exposes the access to the information in a WebSocket session.

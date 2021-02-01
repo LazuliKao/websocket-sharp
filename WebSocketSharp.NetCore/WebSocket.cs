@@ -53,11 +53,11 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using WebSocketSharp.NetCore.Net;
-using WebSocketSharp.NetCore.Net.WebSockets;
-using WebSocketSharp.NetCore.Net.WebSockets.Exceptions;
+using WebSocketSharp.Net;
+using WebSocketSharp.Net.WebSockets;
+using WebSocketSharp.Net.WebSockets.Exceptions;
 
-namespace WebSocketSharp.NetCore
+namespace WebSocketSharp
 {
     /// <summary>
     /// Implements the WebSocket interface.

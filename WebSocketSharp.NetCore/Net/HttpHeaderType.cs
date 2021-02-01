@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp.NetCore.Net
+namespace WebSocketSharp.Net
 {
   [Flags]
   internal enum HttpHeaderType
